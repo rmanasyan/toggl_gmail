@@ -1,20 +1,41 @@
 /*= LOGINN SCREEN*/
 #container #main #login {
-    /*min-height: 335px !important;*/
+    min-height: auto !important;
 }
 
-.forgot-password-button {
-    padding: 10px 5px !important;
+#login .ui-content {
+    height: auto !important;
+    min-height: auto !important;
 }
 
-h1.logo {
+#login h1.logo {
     background-position: -620px 0 !important;
     width: 130px !important;
     height: 40px !important;
     margin: 0 auto !important;
 }
 
-header a#logo {
-    border: 2px solid #f00 !important;
+input, textarea, #signup-form input {
+    height: auto !important;
 }
 
+#login-form input[type=text], #login-form input[type=email], #login-form input[type=password] {
+    padding: 5px !important;
+}
+
+#login-form .login-button {
+    padding: 6px !important;
+}
+
+.forgot-password-button {
+    padding: 10px 5px !important;
+}
+
+.signup-button {
+    padding: 10px 0 !important;
+}
+
+/*= action title*/
+header h1 {
+    text-align: right;
+}
