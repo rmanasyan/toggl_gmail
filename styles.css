@@ -1,0 +1,20 @@
+/*= LOGINN SCREEN*/
+#container #main #login {
+    /*min-height: 335px !important;*/
+}
+
+.forgot-password-button {
+    padding: 10px 5px !important;
+}
+
+h1.logo {
+    background-position: -620px 0 !important;
+    width: 130px !important;
+    height: 40px !important;
+    margin: 0 auto !important;
+}
+
+header a#logo {
+    border: 2px solid #f00 !important;
+}
+

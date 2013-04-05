@@ -1,0 +1,18 @@
+{
+    "name": "Toggl skin for Gmail gadget",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Changes Toggl Mobile to fit Gmail layout nicely",
+//    "icons": {
+//        "16": "icon16.png",
+//        "48": "icon48.png",
+//        "128": "icon128.png"
+//    },
+    "content_scripts": [
+        {
+            "matches": ["https://m.toggl.com/*", "https://mobile.toggl.com/*"],
+            "css": ["styles.css"],
+            "all_frames": true
+        }
+    ]
+}
