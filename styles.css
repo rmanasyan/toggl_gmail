@@ -1,3 +1,5 @@
+@media screen and (max-width: 200px) {
+
 /*= LOGINN SCREEN*/
 #container #main #login {
     min-height: auto !important;
@@ -35,7 +37,13 @@ input, textarea, #signup-form input {
     padding: 10px 0 !important;
 }
 
+.version {
+    top: 3px !important;
+}
+
 /*= action title*/
 header h1 {
     text-align: right;
+}
+
 }
