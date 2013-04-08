@@ -1,6 +1,6 @@
 @media screen and (max-width: 200px) {
 
-/*= LOGINN SCREEN*/
+/*= LOGIN SCREEN*/
 #container #main #login {
     min-height: auto !important;
 }
@@ -11,10 +11,10 @@
 }
 
 #login h1.logo {
-    background-position: -620px 0 !important;
     width: 130px !important;
     height: 40px !important;
     margin: 0 auto !important;
+    background-position: -620px 0 !important;
 }
 
 input, textarea, #signup-form input {
@@ -46,4 +46,81 @@ header h1 {
     text-align: right;
 }
 
+}
+
+/*= TIME ENTRIES*/
+header .dropdown a.user {
+    padding-left: 25px !important;
+}
+
+header .dropdown a.user {
+    padding-right: 10px !important;
+}
+
+header a.user span {
+    display: none !important;
+}
+
+header .dropdown ul.dropdown-menu {
+    right: -5px !important;
+}
+
+header .dropdown ul.dropdown-menu:before {
+    top: -7px !important;
+    right: 4px !important;
+}
+
+ul.main-list li div.action {
+    width: 25px !important;
+    right: -25px !important;
+    opacity: 0.9;
+    transition: all 0.1s ease-in;
+}
+
+ul.main-list li div.action:hover {
+    opacity: 1;
+}
+
+ul.main-list li:hover div.action {
+    right: 0 !important;
+}
+
+#time-entries-list ul.main-list li {
+    height: auto !important;
+    min-height: 0 !important;
+}
+
+ul.main-list li .content span.input {
+    position: relative !important;
+    float: left !important;
+    width: auto !important;
+    right: auto !important;
+}
+
+#time-entries-list span.te-duration {
+    margin-right: 0 !important;
+    padding: 7px 0 0 !important;
+    height: auto !important;
+    line-height: 1 !important;
+    text-align: left !important;
+}
+
+ul.main-list li.time-entry-row .content h2, ul.main-list li.time-entry-row .content p {
+    clear: both !important;
+    padding: 5px 0 !important;
+    height: auto !important;
+    min-height: 0!important;
+    line-height: 1 !important;
+    white-space: normal !important;
+}
+
+a.arrow span {
+    width: 7px !important;
+    margin: -10px 0 0 -4px !important;
+    background-size: 620px 121px !important;
+}
+
+.task.running a.wide h2 {
+    text-overflow: ellipsis !important;
+    overflow: hidden !important;
 }
