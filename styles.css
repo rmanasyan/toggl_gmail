@@ -48,7 +48,7 @@ header h1 {
 
 }
 
-/*= TIME ENTRIES*/
+/*= LIST TIME ENTRIES*/
 header .dropdown a.user {
     padding-left: 25px !important;
 }
@@ -95,6 +95,7 @@ ul.main-list li .content span.input {
     float: left !important;
     width: auto !important;
     right: auto !important;
+    text-align: left !important;
 }
 
 #time-entries-list span.te-duration {
@@ -102,7 +103,7 @@ ul.main-list li .content span.input {
     padding: 7px 0 0 !important;
     height: auto !important;
     line-height: 1 !important;
-    text-align: left !important;
+    /*text-align: left !important;*/
 }
 
 ul.main-list li.time-entry-row .content h2, ul.main-list li.time-entry-row .content p {
@@ -124,3 +125,21 @@ a.arrow span {
     text-overflow: ellipsis !important;
     overflow: hidden !important;
 }
+
+/*= EDIT TIME ENTRIES*/
+ul.main-list.edit-list li a h2 {
+    float: left !important;
+    /*padding: 4px 0 !important;*/
+}
+
+ul.edit-list li .content span.input {
+    float: right !important;
+}
+
+ul.edit-list li .content span.input input {
+    text-align: right !important;
+    float: right !important;
+    width: 80px !important;
+}
+
+/*TODO: calendar, titles smaller */
