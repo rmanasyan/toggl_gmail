@@ -43,17 +43,16 @@ input, textarea, #signup-form input {
 
 /*= action title*/
 header h1 {
-    text-align: right;
-}
-
+    text-align: left !important;
+    font-size: 80px !important;
+    margin-left: -20px !important;
+    white-space: nowrap !important;
+    color: #435b6d !important;
 }
 
 /*= LIST TIME ENTRIES*/
 header .dropdown a.user {
     padding-left: 25px !important;
-}
-
-header .dropdown a.user {
     padding-right: 10px !important;
 }
 
@@ -103,7 +102,6 @@ ul.main-list li .content span.input {
     padding: 7px 0 0 !important;
     height: auto !important;
     line-height: 1 !important;
-    /*text-align: left !important;*/
 }
 
 ul.main-list li.time-entry-row .content h2, ul.main-list li.time-entry-row .content p {
@@ -127,9 +125,9 @@ a.arrow span {
 }
 
 /*= EDIT TIME ENTRIES*/
-ul.main-list.edit-list li a h2 {
+ul.main-list.edit-list li h2 {
     float: left !important;
-    /*padding: 4px 0 !important;*/
+    padding: 4px 0 !important;
 }
 
 ul.edit-list li .content span.input {
@@ -142,4 +140,22 @@ ul.edit-list li .content span.input input {
     width: 80px !important;
 }
 
-/*TODO: calendar, titles smaller */
+#edit a.time-entry-delete-button {
+    min-width: 100% !important;
+    margin-bottom: 5px !important;
+}
+
+ul.main-list li .content span.input .ibutton-container {
+    margin-top: 0 !important;
+}
+
+div.actions .right, div.actions .right span {
+    width: auto !important;
+}
+
+#edit #datebox {
+    margin-left: -107px !important;
+}
+
+
+}
