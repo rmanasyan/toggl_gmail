@@ -1,0 +1,4 @@
+<Module>
+<ModulePrefs title="Toggl Mobile" height="300" title_url="https://www.toggl.com" description="Toggl timetracking interface" screenshot="https://www.toggl.com/images/gadget-screen.png" thumbnail="https://www.toggl.com/images/gadget-thumb.png" author="Toggl" author_email="support@toggl.com" author_location="Tallinn, Estonia"/>
+<Content type="url" href="https://mobile.toggl.com"/>
+</Module>
